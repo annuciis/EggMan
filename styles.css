@@ -1,0 +1,113 @@
+
+
+body{
+    text-align: center;
+    background-color: #74c7e7d4;
+    overflow: hidden;
+}
+
+#game-box{
+    display: table;
+}
+
+.start-button-box{
+display: table-cell;
+vertical-align: middle;
+}
+#startBtn{
+    width:30%;
+    height:50px
+}
+
+#game-box, #game-over{
+height:400px;
+border-bottom: 10px solid #56f36c;
+margin: 0 auto;
+background-color: yellow;
+position: relative;
+overflow: hidden;
+}
+
+
+#chicken-character, #egg-character, .fox-character {
+    position: absolute;
+    width:75px;
+    height:85px;
+
+}
+
+
+#chicken-character{
+    z-index: 0; 
+}
+.fox-character{
+    z-index:1;
+}
+
+
+#game-over{
+
+    display:none;
+
+}
+
+.game-over-alert-box{
+    display: table-cell;
+    vertical-align: middle;
+}
+.game-over-text{
+    font-size: 70px;
+    
+}
+
+
+.score-box{
+    background-color:#44bbea;
+}
+.score-text{
+margin:0
+}
+
+/* Boxes below the game */
+
+.arrow-keys, .instruction-box{
+    margin-top:3%
+}
+.movement-buttons{
+    width:210px;
+    height:210px;
+    margin: auto ;
+    position: relative;
+
+
+}
+
+.arrow-button{
+    width:70px;
+    height:70px;
+    position: absolute;
+}
+
+.up{
+    bottom:140px;
+    left: 70px;
+}
+.left{
+    bottom:70px;
+    left:0;
+}
+.right{
+    bottom: 70px;
+    left:140px
+}
+.down{
+    left:70px;
+    bottom:0;
+}
+.instruction-box{
+    padding-right:5%;
+}
+.instruction-text{
+padding: 3%;
+font-size: 0.9rem;
+}

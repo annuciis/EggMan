@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eggman</title>
+      <!-- Css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media-query.css">
+
+</head>
+<body>
+    <div id="game" class="row">
+
+        <div class=" col-12 score-box">
+            <p class="score-text"></p>
+        </div>
+        <div id="game-box" class=" col-12">
+            <div class="start-button-box">
+                <button id="startBtn" class="btn btn-outline-dark" onclick="startGame()">Play</button>
+            </div>
+        </div>
+        <div id="game-over" class=" col-12">
+            <div class="game-over-alert-box">
+            <p class="game-over-text"> Game over!</p> <button onclick="playAgain()">Play again</button>
+            </div>
+        </div>
+        <div class="arrow-keys col-12 col-lg-6 col-md-6 col-sm-6 ">
+            <div class="movement-buttons">
+            <button id="move-up" class="arrow-button up btn  btn-outline-dark">Up</button>
+            <button id="move-left" class="arrow-button left btn btn-outline-dark" >Left</button>
+            <button id="move-right" class="arrow-button right btn  btn-outline-dark">Right</button>
+            <button id="move-down" class="arrow-button down btn  btn-outline-dark">Down</button>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-md-6 col-sm-6 instruction-box">
+            <h4>Instruction</h4>
+            <p class="instruction-text">Your task is to catch as many eggs as possible. <br>
+                 Try not to touch the fox,<br> otherwise your game will be over!<br>
+                Try to get the best possible result!<br> By each move the difficulty level increases.<br>
+                Share your score with friends or family!</p>
+        </div>
+
+
+
+    </div>
+    
+    <script src="game.js"></script>
+    <script src="movements.js"></script>
+    <script src="arrow-keys.js"></script>
+
+</body>
+</html>
