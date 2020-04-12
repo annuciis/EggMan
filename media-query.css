@@ -16,11 +16,15 @@
         font-size: 60px;
     }
 
+    .instruction-text{
+        margin-top: 6%;
+    }
+
 
 }
 @media(max-width:701px){
     .instruction-text{
-        margin-top: 7%;
+        
         font-size: 0.85rem;
     }
 }
@@ -36,14 +40,16 @@
 }
 
 @media(max-width:675px){
-    #game-box, #game-over{
-        height:435px
+    .arrow-keys{
+        margin-top:7%
     }
     .instruction-box{
+        margin-top: 4%;
         padding:0 6%
     }
     .instruction-text{
         font-size: 0.8rem;
+        margin-top: 8%;
     }
 
 }
@@ -73,6 +79,7 @@
     .instruction-text{
         
         margin-bottom: 15%;
+        margin-top: 5%;
         padding: 0 15%;
 
     }
@@ -106,6 +113,7 @@
     }
     .instruction-text{
         font-size: 0.75rem;
+        margin-top: 10%;
     }
 }
 
