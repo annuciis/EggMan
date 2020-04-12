@@ -63,8 +63,20 @@
 
 @media(max-width:575px){
     
-    .arrow-keys, .instruction-box{
+    .arrow-keys{
         margin-top:5%
+    }
+
+    .instruction-box{
+        border-top: black 1px solid;
+        margin-top: 15%;
+        padding-top:10%
+    }
+    .instruction-text{
+        
+        margin-bottom: 15%;
+        padding: 0 15%;
+
     }
 }
 
@@ -93,6 +105,9 @@
     .game-over-text{
         font-size: 45px;
     }
+    .instruction-text{
+        font-size: 0.75rem;
+    }
 }
 
 @media(max-width:380px){
@@ -104,5 +119,11 @@
 @media(max-width:340px){
     .game-over-text{
         font-size: 40px;
+    }
+    h4{
+        font-size: 1.3rem;
+    }
+    .instruction-text{
+        font-size: 0.735rem;
     }
 }

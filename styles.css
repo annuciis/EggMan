@@ -3,7 +3,8 @@
 body{
     text-align: center;
     background-color: #74c7e7d4;
-    overflow: hidden;
+    overflow-x: hidden;
+    
 }
 
 #game-box{
